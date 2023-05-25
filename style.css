@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    position: fixed; 
+    background-color: orange;
+    width: 100%;
+    top: 0px;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        width: 80%;
+    }
+}
+
+#Icon_Img_nav{
+    height: 120px;
+    width: 120px;
+    margin-left: 60px;
+}
+
+li{
+    display: inline-block;
+    margin-left: 40px;
+    list-style-type: none;
+    color: rgb(255, 255, 255);
+    -webkit-text-fill-color:rgb(255, 255, 255);
+    -webkit-text-stroke-width: 2px;
+    text-decoration: underline red;
+}
+
+li:hover{
+    color: red;
+    -webkit-text-fill-color:red;
+    transition: 0.7s;
+}
+
+ul{
+    margin-right: 650px;
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+}
+
+body{
+    background-image: url("img/background.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 1904px;
+    width: 1904px;
+}
+
+h1{
+    -webkit-text-fill-color:orange;
+    -webkit-text-stroke-width: 2px;
+    margin-top: 130px;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bold;
+    font-size: 100px;
+    text-align: center;
+    text-decoration: underline orange;
+}
+
+h2{
+    margin-top: 30px;
+    margin-left: 30px;
+    float: left;
+    text-align: center;
+}
+
+h3{
+    -webkit-text-fill-color:rgb(255, 255, 255);
+    -webkit-text-stroke-width: 2px;
+    margin-top: 20px;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+}
+
+#_icon{
+    height: 400px;
+    width: 400px;
+    margin-left: 30px;
+}
